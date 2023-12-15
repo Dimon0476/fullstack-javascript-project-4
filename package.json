@@ -1,0 +1,40 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
+  "description": "[![Actions Status](https://github.com/Dimon0476/fullstack-javascript-project-4/workflows/hexlet-check/badge.svg)](https://github.com/Dimon0476/fullstack-javascript-project-4/actions)",
+  "main": "src/pageLoad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimon0476/fullstack-javascript-project-4.git"
+  },
+  "author": "Dimon0476",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimon0476/fullstack-javascript-project-4/issues"
+  },
+  "homepage": "https://github.com/Dimon0476/fullstack-javascript-project-4#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.1",
+    "nock": "^13.2.8"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-debug-log": "^0.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^9.3.0",
+    "debug": "^4.3.4",
+    "js-beautify": "^1.14.4",
+    "listr": "^0.14.3",
+    "prettier": "^2.7.1"
+  }
+}
